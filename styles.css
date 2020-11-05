@@ -1,0 +1,59 @@
+/* Import ---------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Global ---------------------------- */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    border-bottom:1px solid #333;
+}
+.login-form {
+    padding:20px;
+}
+input {
+    margin:5px 0px;
+}
+button{
+    margin-top:10px;
+}
+.bottom{
+    position:absolute;
+    bottom:0;
+}
+
+/* Login ---------------------------- */
+
+.logo {
+    height:100px;
+}
+
+/* Login ---------------------------- */
+
+.login-wrapper {
+    padding:20px;
+}
+
+.display-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+}
+.main {
+    padding:20px;
+}
+
+.homepage-links{
+    margin-bottom:10px;
+}
+
+.hero {
+    width:100%;
+    height:500px;
+}
+.error {
+    font-weight:bold;
+    color:red;
+}
